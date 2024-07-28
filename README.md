@@ -41,7 +41,6 @@ No modules.
 | <a name="input_description"></a> [description](#input\_description) | A description for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | ID of the folder that the Yandex Cloud Logging group belongs to | `string` | `null` | no |
 | <a name="input_labels"></a> [labels](#input\_labels) | A set of key/value label pairs to assign to the Yandex Cloud Logging group | `map(string)` | `{}` | no |
-| <a name="input_location_id"></a> [location\_id](#input\_location\_id) | Location ID for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_retention_period"></a> [retention\_period](#input\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group | `string` | `null` | no |
 

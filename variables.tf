@@ -4,12 +4,6 @@ variable "name" {
   default     = null
 }
 
-variable "location_id" {
-  description = "Location ID for the Yandex Cloud Logging group"
-  type        = string
-  default     = null
-}
-
 variable "folder_id" {
   description = "ID of the folder that the Yandex Cloud Logging group belongs to"
   type        = string
