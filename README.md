@@ -16,10 +16,13 @@ maintainers to test your changes and to keep the examples up to date for users. 
 | Name | Version |
 |------|---------|
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.3 |
+| <a name="requirement_yandex"></a> [yandex](#requirement\_yandex) | >= 0.72.0 |
 
 ## Providers
 
-No providers.
+| Name | Version |
+|------|---------|
+| <a name="provider_yandex"></a> [yandex](#provider\_yandex) | >= 0.72.0 |
 
 ## Modules
 
@@ -27,11 +30,19 @@ No modules.
 
 ## Resources
 
-No resources.
+| Name | Type |
+|------|------|
+| [yandex_logging_group.logging_group](https://registry.terraform.io/providers/yandex-cloud/yandex/latest/docs/resources/logging_group) | resource |
 
 ## Inputs
 
-No inputs.
+| Name | Description | Type | Default | Required |
+|------|-------------|------|---------|:--------:|
+| <a name="input_description"></a> [description](#input\_description) | A description for the Yandex Cloud Logging group | `string` | `null` | no |
+| <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | ID of the folder that the Yandex Cloud Logging group belongs to | `string` | `null` | no |
+| <a name="input_labels"></a> [labels](#input\_labels) | A set of key/value label pairs to assign to the Yandex Cloud Logging group | `map(string)` | `{}` | no |
+| <a name="input_name"></a> [name](#input\_name) | Name for the Yandex Cloud Logging group | `string` | `null` | no |
+| <a name="input_retention_period"></a> [retention\_period](#input\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group | `string` | `null` | no |
 
 ## Outputs
 
