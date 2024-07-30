@@ -46,7 +46,10 @@ No modules.
 
 ## Outputs
 
-No outputs.
+| Name | Description |
+|------|-------------|
+| <a name="output_id"></a> [id](#output\_id) | ID of the created logging group |
+| <a name="output_name"></a> [name](#output\_name) | Name of the created logging group |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## License
