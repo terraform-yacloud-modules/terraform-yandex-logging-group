@@ -1,6 +1,6 @@
-# Yandex Cloud <RESOURCE> Terraform module
+# Yandex Cloud Logging Terraform module
 
-Terraform module which creates Yandex Cloud <RESOURCE> resources.
+Terraform module which creates Yandex Cloud Logging resources.
 
 ## Examples
 
@@ -48,8 +48,14 @@ No modules.
 
 | Name | Description |
 |------|-------------|
-| <a name="output_id"></a> [id](#output\_id) | ID of the created logging group |
-| <a name="output_name"></a> [name](#output\_name) | Name of the created logging group |
+| <a name="output_cloud_id"></a> [cloud\_id](#output\_cloud\_id) | ID of the cloud that the Yandex Cloud Logging group belongs to |
+| <a name="output_created_at"></a> [created\_at](#output\_created\_at) | Creation timestamp of the Yandex Cloud Logging group |
+| <a name="output_description"></a> [description](#output\_description) | Description of the Yandex Cloud Logging group |
+| <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | ID of the folder that the Yandex Cloud Logging group belongs to |
+| <a name="output_id"></a> [id](#output\_id) | ID of the Yandex Cloud Logging group |
+| <a name="output_labels"></a> [labels](#output\_labels) | A set of key/value label pairs assigned to the Yandex Cloud Logging group |
+| <a name="output_name"></a> [name](#output\_name) | Name of the Yandex Cloud Logging group |
+| <a name="output_retention_period"></a> [retention\_period](#output\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 
 ## License
