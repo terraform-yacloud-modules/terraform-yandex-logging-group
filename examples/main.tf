@@ -10,4 +10,11 @@ module "logging_group" {
   labels = {
     environment = "production"
   }
+
+  timeouts = {
+    create = "30m"
+    update = "30m"
+    delete = "30m"
+  }
+
 }
