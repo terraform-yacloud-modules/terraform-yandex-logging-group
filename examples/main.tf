@@ -11,10 +11,11 @@ module "logging_group" {
     environment = "production"
   }
 
+  data_stream = null
+
   timeouts = {
     create = "30m"
     update = "30m"
     delete = "30m"
   }
-
 }

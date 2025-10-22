@@ -37,3 +37,13 @@ output "created_at" {
   description = "Creation timestamp of the Yandex Cloud Logging group"
   value       = yandex_logging_group.logging_group.created_at
 }
+
+output "status" {
+  description = "Status of the Yandex Cloud Logging group"
+  value       = yandex_logging_group.logging_group.status
+}
+
+output "data_stream" {
+  description = "Data Stream associated with the Yandex Cloud Logging group"
+  value       = yandex_logging_group.logging_group.data_stream
+}

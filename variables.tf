@@ -38,3 +38,9 @@ variable "timeouts" {
   })
   default = null
 }
+
+variable "data_stream" {
+  description = "Data Stream associated with the logging group"
+  type        = string
+  default     = null
+}
