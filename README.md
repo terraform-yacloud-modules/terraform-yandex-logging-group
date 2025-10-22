@@ -38,11 +38,13 @@ No modules.
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_data_stream"></a> [data\_stream](#input\_data\_stream) | Data Stream associated with the logging group | `string` | `null` | no |
 | <a name="input_description"></a> [description](#input\_description) | A description for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_folder_id"></a> [folder\_id](#input\_folder\_id) | ID of the folder that the Yandex Cloud Logging group belongs to | `string` | `null` | no |
 | <a name="input_labels"></a> [labels](#input\_labels) | A set of key/value label pairs to assign to the Yandex Cloud Logging group | `map(string)` | `{}` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_retention_period"></a> [retention\_period](#input\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group | `string` | `null` | no |
+| <a name="input_timeouts"></a> [timeouts](#input\_timeouts) | Timeout settings for cluster operations | <pre>object({<br/>    create = optional(string)<br/>    update = optional(string)<br/>    delete = optional(string)<br/>  })</pre> | `null` | no |
 
 ## Outputs
 
@@ -50,12 +52,14 @@ No modules.
 |------|-------------|
 | <a name="output_cloud_id"></a> [cloud\_id](#output\_cloud\_id) | ID of the cloud that the Yandex Cloud Logging group belongs to |
 | <a name="output_created_at"></a> [created\_at](#output\_created\_at) | Creation timestamp of the Yandex Cloud Logging group |
+| <a name="output_data_stream"></a> [data\_stream](#output\_data\_stream) | Data Stream associated with the Yandex Cloud Logging group |
 | <a name="output_description"></a> [description](#output\_description) | Description of the Yandex Cloud Logging group |
 | <a name="output_folder_id"></a> [folder\_id](#output\_folder\_id) | ID of the folder that the Yandex Cloud Logging group belongs to |
 | <a name="output_id"></a> [id](#output\_id) | ID of the Yandex Cloud Logging group |
 | <a name="output_labels"></a> [labels](#output\_labels) | A set of key/value label pairs assigned to the Yandex Cloud Logging group |
 | <a name="output_name"></a> [name](#output\_name) | Name of the Yandex Cloud Logging group |
 | <a name="output_retention_period"></a> [retention\_period](#output\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group |
+| <a name="output_status"></a> [status](#output\_status) | Status of the Yandex Cloud Logging group |
 <!-- END_TF_DOCS -->
 
 ## License

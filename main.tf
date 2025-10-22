@@ -4,13 +4,14 @@ resource "yandex_logging_group" "logging_group" {
   retention_period = var.retention_period
   description      = var.description
   labels           = var.labels
+  data_stream      = var.data_stream
 
   dynamic "timeouts" {
     for_each = var.timeouts == null ? [] : [var.timeouts]
     content {
-      create = try(timeouts.value.create, null)
-      update = try(timeouts.value.update, null)
-      delete = try(timeouts.value.delete, null)
+      create = timeouts.value.create
+      update = timeouts.value.update
+      delete = timeouts.value.delete
     }
   }
 
