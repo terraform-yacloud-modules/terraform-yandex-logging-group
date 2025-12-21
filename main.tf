@@ -10,6 +10,7 @@ resource "yandex_logging_group" "logging_group" {
     for_each = var.timeouts == null ? [] : [var.timeouts]
     content {
       create = timeouts.value.create
+      read   = timeouts.value.read
       update = timeouts.value.update
       delete = timeouts.value.delete
     }
