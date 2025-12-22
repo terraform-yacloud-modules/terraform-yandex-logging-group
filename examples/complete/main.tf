@@ -15,6 +15,7 @@ module "logging_group" {
 
   timeouts = {
     create = "30m"
+    read   = "30m"
     update = "30m"
     delete = "30m"
   }

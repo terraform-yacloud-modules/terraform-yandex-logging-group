@@ -44,7 +44,7 @@ No modules.
 | <a name="input_labels"></a> [labels](#input\_labels) | A set of key/value label pairs to assign to the Yandex Cloud Logging group | `map(string)` | `{}` | no |
 | <a name="input_name"></a> [name](#input\_name) | Name for the Yandex Cloud Logging group | `string` | `null` | no |
 | <a name="input_retention_period"></a> [retention\_period](#input\_retention\_period) | Log entries retention period for the Yandex Cloud Logging group | `string` | `null` | no |
-| <a name="input_timeouts"></a> [timeouts](#input\_timeouts) | Timeout settings for cluster operations | <pre>object({<br/>    create = optional(string)<br/>    update = optional(string)<br/>    delete = optional(string)<br/>  })</pre> | `null` | no |
+| <a name="input_timeouts"></a> [timeouts](#input\_timeouts) | Timeout settings for logging group operations | <pre>object({<br/>    create = optional(string)<br/>    update = optional(string)<br/>    delete = optional(string)<br/>    read   = optional(string)<br/>  })</pre> | `null` | no |
 
 ## Outputs
 
