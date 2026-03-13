@@ -60,9 +60,10 @@ variable "labels" {
 
 
 variable "timeouts" {
-  description = "Timeout settings for cluster operations"
+  description = "Timeout settings for logging group operations (create, read, update, delete)"
   type = object({
     create = optional(string)
+    read   = optional(string)
     update = optional(string)
     delete = optional(string)
   })
