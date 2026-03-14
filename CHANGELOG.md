@@ -1,3 +1,7 @@
+## v1.31.0 - 2026-03-14
+### Features
+- 73bcc73 feat: add read to timeouts and read example ([#55](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/55))
+
 ## v1.30.0 - 2026-03-02
 ### Chores
 - 8bb4cd5 chore(deps): bump hashicorp/setup-terraform from 3 to 4 ([#54](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/54))
