@@ -1,3 +1,7 @@
+## v1.32.0 - 2026-03-23
+### Chores
+- 11fb48c chore(deps): bump actions/cache from 5.0.3 to 5.0.4 ([#56](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/56))
+
 ## v1.31.0 - 2026-03-14
 ### Features
 - 73bcc73 feat: add read to timeouts and read example ([#55](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/55))
