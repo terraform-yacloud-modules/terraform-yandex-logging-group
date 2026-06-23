@@ -1,3 +1,7 @@
+## v1.34.0 - 2026-06-23
+### Chores
+- 26f2429 chore(deps): bump actions/checkout from 6 to 7 ([#58](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/58))
+
 ## v1.33.0 - 2026-04-20
 ### Chores
 - 479092c chore(deps): bump actions/cache from 5.0.4 to 5.0.5 ([#57](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/57))
