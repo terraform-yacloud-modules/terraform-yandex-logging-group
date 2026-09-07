@@ -1,3 +1,7 @@
+## v1.41.0 - 2026-09-07
+### Chores
+- a6de585 chore(deps): bump bridgecrewio/checkov-action ([#66](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/66))
+
 ## v1.40.0 - 2026-09-01
 ### Bug Fixes
 - bf33cef fix: передача folder_id в примере с приоритетом tfvars над YC_FOLDER_ID
