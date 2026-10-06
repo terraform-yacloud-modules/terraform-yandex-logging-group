@@ -1,3 +1,7 @@
+## v1.44.0 - 2026-10-06
+### Chores
+- 2f7228a chore(deps): bump bridgecrewio/checkov-action ([#69](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/69))
+
 ## v1.43.0 - 2026-09-21
 ### Chores
 - cd2b251 chore(deps): bump bridgecrewio/checkov-action ([#68](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/68))
