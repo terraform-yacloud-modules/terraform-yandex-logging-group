@@ -1,3 +1,10 @@
+## v1.50.0 - 2026-11-18
+### Chores
+- 582868c chore(deps): bump bridgecrewio/checkov-action ([#75](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/75))
+
+### Miscellaneous
+- db3f2a6 ci: run semver job only on push to main ([#76](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/76))
+
 ## v1.49.0 - 2026-11-09
 ### Chores
 - 26fdfe1 chore(deps): bump bridgecrewio/checkov-action ([#74](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/74))
