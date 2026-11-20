@@ -1,3 +1,7 @@
+## v1.51.0 - 2026-11-20
+### Miscellaneous
+- 0b102ac ci: pin bridgecrewio/checkov-action to major tag v12 ([#77](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/77))
+
 ## v1.50.0 - 2026-11-18
 ### Chores
 - 582868c chore(deps): bump bridgecrewio/checkov-action ([#75](https://github.com/terraform-yacloud-modules/terraform-yandex-logging-group/pull/75))
